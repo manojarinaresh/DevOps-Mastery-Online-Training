@@ -1,1 +1,118 @@
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8fafb;
+    color: #23282f;
+}
+header {
+    background: #283e62;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+header .logo {
+    height: 54px;
+    margin-left: 28px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 32px;
+}
+nav ul li {
+    margin: 0 12px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ffb400;
+}
+.hero {
+    background: linear-gradient(110deg, #2e66ad 60%, #283e62 100%);
+    color: #fff;
+    text-align: center;
+    padding: 68px 20px 44px 20px;
+}
+.cta-btn {
+    background: #ffb400;
+    color: #283e62;
+    padding: 14px 34px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 24px;
+    display: inline-block;
+    transition: background 0.2s;
+}
+.cta-btn:hover {
+    background: #e09f00;
+}
+section {
+    max-width: 950px;
+    margin: 44px auto;
+    background: #fff;
+    padding: 36px 26px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(60, 60, 80, 0.11);
+}
+h2 {
+    color: #2e66ad;
+}
+.promo {
+    background: #f1f5fb;
+    border-left: 6px solid #ffb400;
+}
+.promo .highlight {
+    color: #e09f00;
+    font-weight: bold;
+}
+.course-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 14px;
+}
+.course-list li {
+    padding: 14px;
+    border-bottom: 1px solid #edf1f7;
+}
+.benefits ul, .faq ul {
+    list-style: disc inside;
+    padding-left: 18px;
+}
+.enroll form {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.enroll input, .enroll button {
+    padding: 10px;
+    border: 1px solid #d5dde2;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.enroll button {
+    background: #2e66ad;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.enroll button:hover {
+    background: #283e62;
+}
+footer {
+    background: #23282f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 1em;
+}
